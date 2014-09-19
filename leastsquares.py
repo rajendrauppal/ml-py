@@ -25,14 +25,14 @@ THE SOFTWARE.
 """
 
 # Development environment:
-# - Python 2.7.5 (32-bit)
-# - Windows 7 64-bit machine
+#   - Python 2.7.5 (32-bit)
+#   - Windows 7 64-bit machine
 
 def leastSquares():
-	pass
+    pass
 
 def main():
-	leastSquares()
+    leastSquares()
 
 if __name__ == '__main__':
-	main()
+    main()

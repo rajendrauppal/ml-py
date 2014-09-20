@@ -28,11 +28,24 @@ THE SOFTWARE.
 #   - Python 2.7.5 (32-bit)
 #   - Windows 7 64-bit machine
 
-def leastSquares():
-    pass
+
+import json
+from pprint import pprint
+
+
+def getMovieRatings(jsonFile):
+    with open(jsonFile) as dataFile:
+        data = json.load(dataFile)
+    pprint(data)
+
+
+def movieRecommendations():
+    getMovieRatings("movie_ratings.json")
+
 
 def main():
-    leastSquares()
+    movieRecommendations()
+
 
 if __name__ == '__main__':
     main()
